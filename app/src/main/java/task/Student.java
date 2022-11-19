@@ -1,4 +1,4 @@
-package skip;
+package task;
 
 public class Student {
     int id;
@@ -8,7 +8,8 @@ public class Student {
     String group;
     Subject[] subjects;
 
-    public Student() {}
+    public Student() {
+    }
 
   public Student(String name, String surname, String group) {
         this.id = nextId++;
